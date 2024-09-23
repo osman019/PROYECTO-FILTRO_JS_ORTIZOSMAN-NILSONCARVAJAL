@@ -1,0 +1,24 @@
+body{
+    background-image:  radial-gradient(circle at 25.82% -16.45%, #20028f 0, #908ef2 25%, #051b5c 50%, #0052d8 75%, #031c57 100%);;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+#barraPrincipal{
+    position: absolute;
+    top: 90%;
+    left: 30%;
+	width: 30vw;
+	height: 0px;
+	border-top: solid 0px transparent;
+	border-right: solid 50px transparent;
+	border-bottom: solid 100px #1A1C48;
+	border-left: solid 50px transparent;
+    border-top-left-radius: 5vw;
+    border-top-right-radius: 5vw;
+
+
+
+
+}
