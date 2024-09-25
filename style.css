@@ -1,5 +1,5 @@
 body{
-    background-image:  url('img/Background.png');
+    background-color: #1f225c;
     font-family: cursive;
     margin: 0%;
 } 
@@ -10,7 +10,6 @@ body{
 }
 .footer {
     color: white;
-    /* background: coral; */
     grid-area: section__footer;
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
@@ -22,8 +21,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+  
 }
 .footer ul li {
     list-style: none;
@@ -35,6 +33,7 @@ body{
     flex-direction: column;
     align-items: center;
     color: var(--color--two);
+ 
 }
 .select{
     padding: 8px 0;
