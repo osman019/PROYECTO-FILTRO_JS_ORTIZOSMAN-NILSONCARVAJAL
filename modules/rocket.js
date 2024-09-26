@@ -1,11 +1,19 @@
-const API = "https://api.spacexdata.com/v4/rockets";
-
-const HTMLResponse = document.querySelector("item1"); 
+function mostrarDatos(done){
 
 
-fetch(`${API}/height`)
-.then((response) => response.json())
-.then((payload_weights) =>{
-    const tlp = height.map((name) => `<li>${payload_weights.name}</li>`);
+    const results = fetch("https://api.spacexdata.com/v4/rockets"){
+        
+    };
+    
 
+results
+.then(response => response.json())
+.then( data => {
+    done(data)
 });
+
+mostrarDatos(data => {
+    console.log(data);
+});
+
+}
