@@ -18,12 +18,12 @@ fetch("https://api.spacexdata.com/v4/company")
                         <div class="divsion">
                             <h2 class="headquarters">Headquarters</h2>
                         </div>
-                        <h2>Address - <span>${companyDatos.headquarters.address}</span></h1>
-                        <h2>City - <span>${companyDatos.headquarters.city}</span></h1>
-                        <h2>State - <span>${companyDatos.headquarters.state}</span></h1>
+                        <h1><span> Address - </span>${companyDatos.headquarters.address}</h1>
+                        <h1><span> City - </span>${companyDatos.headquarters.city}</h1>
+                        <h1><span>  State - </span>${companyDatos.headquarters.state}</h1>
                     </div>
                 </div>
-  <div id="pruebas">Valuation <img src=""  class="valuation"> <div id="textValuation">${companyDatos.valuation}</div></div>
+  <div id="pruebas"> <span class="value">Valuation</span> <img src="/img/bicoinp.png"  class="valuation"> <div id="textValuation">${companyDatos.valuation}</div></div>
             </div>
   `  
 })

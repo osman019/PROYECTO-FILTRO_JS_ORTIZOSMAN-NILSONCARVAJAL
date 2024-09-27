@@ -12,10 +12,12 @@ fetch("https://api.spacexdata.com/v4/rockets")
             <h1><span>First Flight</span><br> ${data[0].first_flight}</h1><br>
             <h1><span>Description<br></span> ${data[0].description}</h1><br>
             <h1><span>Wikipedia<span><br> <a id="enlace"href="${data[0].wikipedia}">${data[0].wikipedia}</a></h1>
-        `
+      <img class="video" src="/img/DoIr.gif" alt="">
+        
+            `
         document.getElementById("imagen").innerHTML=`
         <img id="falcon1" src="/img/falcon1.jpg" alt="">
-
+        
     `
     document.getElementById("infcohete").innerHTML=`
     <h4><span>Type</span> <br>${data[0].type}</h4><br>

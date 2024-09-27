@@ -1,7 +1,9 @@
 body{
+
+    background-position: center center;
     padding: 1vw;
-    background-color: #1f225c;
-    font-family: "Spicy Rice", serif;
+    background-image: url("/img/Background.png");
+    font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
     margin: 0%;
@@ -12,22 +14,19 @@ body{
 } 
 
 #informacion{
-background-color: #1f225c;
-   top: 3vw;
-    position: absolute;
-    left: 4vw;
-    transition: transform 0.3s ease;
-   height: 40vw;
-    width: 24vw;
-    padding: 1vw;
-    border-radius: 1vw;
-    box-shadow: #da9292 0px 0px  10px ;
-}
+        background-color: #1f225c;
+       top: 3vw;
+        position: absolute;
+        left: 4vw;
+        transition: transform 0.3s ease;
+       height: 40vw;
+        width: 24vw;
+        padding: 1vw;
+        border-radius: 1vw;
+        box-shadow: #da9292 0px 0px  10px ;
+    }
 
-@font-face {
-    font-family: "Roboto-Regular";
-    src: url(../storage/font/Roboto/Roboto-Regular.ttf);
-}
+
 .footer {
     color: white;
     grid-area: section__footer;
@@ -57,10 +56,11 @@ background-color: #1f225c;
 }
 
 
+
 #contenedor2{
    
     position: absolute;
-    top: 87%;
+    top: 89%;
     left: 35%;
 	width: 35vw;
 	height: 0px;
@@ -75,50 +75,50 @@ background-color: #1f225c;
     border: 1px solid;
     width: 10vw;
     border-radius: 20px;
-    left: 1%;
-    top: 20%;
+    left: 5%;
+    top: 42%;
     position: absolute;
    
 }
 .name{   
+    
     text-shadow:  2px 2px 40px rgb(0, 0, 0);
     position: absolute;
     left: 50%;
-    font-size: 3em;
-    color: #d60909;
+    font-size: 7em;
+    color: #ffffff;
 }
 #elonkLetra{
-    left: 1%;
+
+    left: 6%;
     color: #ffffff;
     font-size: 3em;
-    top: 50%;
+    top: 70%;
     position: absolute;
 }
 .fundador{
-   
-top: 10%;
-    color: #ffffff;
-    left: 3%;
-position: absolute;}
+    top: 25%;
+    color: #6c7099;
+    left: 7%;
+    position: absolute;
+font-size: 3em;}
 footer{
     font-size: small;
     text-decoration: none;
 }
-img{
+
+img.ul{
     transition: transform 0.3s ease;
-    padding: 1vw;
+    padding: 1vw; 
 }
-img:hover{
-    transform: scale(2)
-    
-}
+img.ul:hover{  transform: scale(2)}
 #inf1{
     
     position: absolute;
 left: 85%;}
 #info2{
     font-size: 1.2em;
-    color: #fd0202;
+    color: #b42222;
     border-radius: vw;
 }
 #infcohete{
@@ -175,5 +175,42 @@ left: 85%;}
     color: white;
 }
 .headquarters{
-    color: #d60909;
+    top: 0%;
+    color: #6f6ea1;
+}
+#pruebas{
+    text-align: center;
+    position: absolute;
+    left: 60%;
+    border-radius: 6px ;
+    height: 9vh;
+    top: 50%;
+    
+    color: white;
+    font-size: 2em;
+}
+span{
+color:#ffffff;
+
+
+}
+#contPart1{height: 10vw;
+    border-radius: 1%;
+ 
+    box-shadow: 0px 0px 10px black ;
+}
+#datosLugar{
+
+    box-shadow: 0px 0px 10px black;
+    text-align: center;
+    top: 7vw;
+    border-radius: 10px;
+    border: 1px solid #7877b6;
+    width: 20vw;
+    position: absolute;
+    right: 1vw;
+
+}
+.value{color: #6c7099;
+
 }
