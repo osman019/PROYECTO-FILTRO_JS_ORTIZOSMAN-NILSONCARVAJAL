@@ -1,5 +1,4 @@
 body{
-  
     background-image: url("/img/navef.jpeg");
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -14,22 +13,49 @@ body{
     background-size: cover;
     overflow: hidden; 
     } 
+    
 #falcon1{
-opacity: 0.5;
-top: 2.5vw;
-width: 30vw;
-left: 38%;
-border-radius: 5vw;
-position: absolute;}
+    opacity: 0.8;
+    top: 2.5vw;
+    width: 15vw;
+    left: 35%;
+    border-radius: 2vw;
+    position: absolute;}
+#falcons{
+    opacity: 0.8;
+    top: 14vw;
+    width: 15vw;
+    left: 35%;
+    border-radius: 2vw;
+    position: absolute;}
+    #falcons:hover{
+        box-shadow: 0px 0px  10px rgb(36, 16, 126)
+    }
+    #falcont{
+        opacity: 0.8;
+        top: 2.5vw;
+        width: 15vw;
+        left: 55%;
+        border-radius: 2vw;
+        position: absolute;} 
+        #falconc{
+            opacity: 0.8;
+            top: 2.5vw;
+            width: 15vw;
+            left: 35%;
+            border-radius: 2vw;
+            position: absolute;}
 
 #falcon1:hover{
     box-shadow: 0px 0px  10px rgb(36, 16, 126)
 }
-#falcon2{top: 20vw;
-width: 30vw;
-left: 38%;
-border-radius: 5vw;
-position: absolute;}
+#falcons:hover{transform: scale(1.1)}
+#falcon2{
+    top: 20vw;
+    width: 30vw;
+    left: 38%;
+    border-radius: 5vw;
+    position: absolute;}
 #falcon1:hover{transform: scale(1.1)}
 #titulo {
     font-family: "Spicy Rice", serif;
@@ -190,11 +216,10 @@ span{color: #ffffff ;}
     left: 80vw;
     display: flex;
     padding: 4px 20px ;
-   
 }
 #pag{
-position: absolute;
-left: 80%;
+    position: absolute;
+    left: 80%;
     text-decoration: none;
     margin: 0 1vw;
     top: 90%;
@@ -211,7 +236,6 @@ left: 80%;
     cursor: pointer;
     border-radius: vw;
     color: white;
-   
 }
 /* Estilo general para la barra de progreso */
 .progress {

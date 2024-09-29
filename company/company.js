@@ -6,7 +6,7 @@ fetch("https://api.spacexdata.com/v4/company")
   conP.innerHTML = `
   <div id="contPart1">
             <div class="name">SpaceX</div>
-           <img id="dance" src="/img/dance.gif" alt="">
+        
             <div class="contMapFounder">
                 <div id="founder">
                     <h2 class="fundador">Founder</h2>
