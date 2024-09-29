@@ -1,23 +1,23 @@
 body{
-    padding: 1vw;
-    background-image: url("/img/Background.png");
+  
+    background-image: url("/img/navef.jpeg");
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
     margin: 0%;
-    margin: 0; /* Elimina cualquier margen */
-    padding: 0; /* Elimina cualquier padding */
+    margin: 0; 
+    padding: 0; 
     min-height: 100vh; /* Hace que el cuerpo ocupe al menos el 100% de la ventana */
     background-position: center center;
-  
-  
-    overflow: hidden; /* Evita el desplazamiento si hay más contenido */
-} 
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden; 
+    } 
 #falcon1{
-    
-   
-    top: 12vw;
-    width: 30vw;
+opacity: 0.5;
+top: 2.5vw;
+width: 30vw;
 left: 38%;
 border-radius: 5vw;
 position: absolute;}
@@ -26,13 +26,12 @@ position: absolute;}
     box-shadow: 0px 0px  10px rgb(36, 16, 126)
 }
 #falcon2{top: 20vw;
-    width: 30vw;
+width: 30vw;
 left: 38%;
 border-radius: 5vw;
 position: absolute;}
 #falcon1:hover{transform: scale(1.1)}
 #titulo {
-   
     font-family: "Spicy Rice", serif;
     font-weight: 400;
     font-style: normal;
@@ -50,7 +49,7 @@ position: absolute;}
 
 
 #informacion{
-    background-color: #202341;
+    background-color: #20234100;
     top: 3vw;
     position: absolute;
     left: 4vw;
@@ -122,7 +121,7 @@ box-shadow:#4222b4 0px 0px  20px ;}
 	height: 0px;
 	border-top: solid 0px transparent;
 	border-right: solid 50px transparent;
-	border-bottom: solid 100px #1A1C48;
+	border-bottom: solid 100px #1a1c4800;
 	border-left: solid 50px transparent;
     border-top-left-radius: 5vw;
     border-top-right-radius: 5vw;
@@ -134,6 +133,7 @@ footer{
 img{
     transition: transform 0.3s ease;
     padding: 1vw;
+    
 }
 
 #inf1{  font-family: "Spicy Rice", serif;
@@ -214,35 +214,17 @@ left: 80%;
    
 }
 /* Estilo general para la barra de progreso */
-progress {
+.progress {
     width: 100%;
     height: 10px;
     border-radius: 10px;
     overflow: hidden;
-    
+    color: white;
 }
 
-/* Cambiar color de la barra de fondo */
-progress::-webkit-progress-bar {
-    background-color: #ffffff; /* Color de fondo */
-}
-
-/* Cambiar color de la barra de progreso (parte que avanza) */
-progress::-webkit-progress-value {
-    background-color: #3b2d8a; /* Color de la barra de progreso */
-    border-radius: 10px;
-}
-
-/* Estilo para Firefox */
-progress::-moz-progress-bar {
-    background-color: #ffffff; /* Color de la barra de progreso */
-    border-radius: 10px;
-}
 .video{
     width: 22vw;
     height: 25vh;
     border-radius: 3vw;
 
 }
-
-

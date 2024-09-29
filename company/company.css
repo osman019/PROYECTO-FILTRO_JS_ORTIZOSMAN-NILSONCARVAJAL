@@ -1,8 +1,9 @@
 body{
-
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center center;
     padding: 1vw;
-    background-image: url("/img/Background.png");
+    background-image: url("/img/elonkM.jpeg");
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -55,8 +56,20 @@ body{
  
 }
 
-
-
+#dance{
+    border-image-repeat: no-repeat;
+    width: 10vw;
+    left:81vw;
+    height: 21vh;
+    position: absolute;
+    border-radius: 1vw;
+    top: 70%;
+    box-shadow: rgb(102, 101, 114) 0px 0px 10px;
+transition: ease-in 1s;
+}
+#dance:hover{
+    transform: scale(1.2);
+}
 #contenedor2{
    
     position: absolute;
@@ -66,7 +79,7 @@ body{
 	height: 0px;
 	border-top: solid 0px transparent;
 	border-right: solid 50px transparent;
-	border-bottom: solid 100px #1A1C48;
+	border-bottom: solid 100px #1a1c4800;
 	border-left: solid 50px transparent;
     border-top-left-radius: 5vw;
     border-top-right-radius: 5vw;
@@ -181,10 +194,10 @@ left: 85%;}
 #pruebas{
     text-align: center;
     position: absolute;
-    left: 60%;
+    left: 80%;
     border-radius: 6px ;
     height: 9vh;
-    top: 50%;
+    top: 30%;
     
     color: white;
     font-size: 2em;
@@ -214,3 +227,42 @@ color:#ffffff;
 .value{color: #6c7099;
 
 }
+.valuation{
+    width: 10vw;
+}
+.info{
+    width: 30vw;
+    left: 1vw;
+    position: absolute;
+    top: 10vh;
+}
+.information{
+    position: absolute;
+left: 6vw;
+    color: #6c7099;
+    top: -2vw;
+}
+#links a {color: white;
+ justify-content: space-around;
+margin-left: 90%;
+text-decoration: none;
+display: block;
+border-radius: 1vw;
+
+width: 10vw;
+text-align: center;
+box-shadow: rgb(30, 30, 58) 0px 0px 15px;
+}
+#links a:hover{background-color: #261f6996;}
+#link1{top: 39vw;
+    left: vw;
+font-size: 2em;
+}
+#link2{top: 40vw;
+left: 30vw;
+font-size: 2em;}
+#link3{top: 20px;
+    font-size: 2em;}
+#link4{top: 20px;
+    font-size: 2em;}
+
