@@ -1,15 +1,62 @@
 body{
+
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0%; 
+    padding: 0; 
+    min-height: 100vh; /* Hace que el cuerpo ocupe al menos el 100% de la ventana */
+    background-position: center center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden; 
+    background-image: url("/img/fondotierra.jpg");
     background-color: #1f225c;
     font-family: cursive;
-    margin: 0%;
+   
 } 
-#item1 { grid-area: header; }
-#item2 { grid-area: menu; }
-#item3 { grid-area: main; }
-#item4 { grid-area: right; }
-#item5 { grid-area: footer; }
-#item6 { grid-area: footer; }
-
+#vuelo{
+  position: absolute;
+  width: 30vw;
+  left: 65%;
+  top: 20%;
+  border-radius: 5vw;
+  opacity: 0.4;
+}
+#informacion{
+    background-color: #ffffff00;
+    top: 3vw;
+    position: absolute;
+    left: 4vw;
+    transition: transform 0.3s ease;
+    height: 40vw;
+    width: 24vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    box-shadow: #ffffff 0px 0px  10px ;
+    color: white;
+}
+#titulo{
+    position: absolute;
+    left: 40%;
+    font-size: 2em;
+    color: rgb(255, 255, 255);}
+   #links a{
+    color: rgb(175, 226, 226);
+   font-size: 3em ;
+    box-shadow:  white;
+    text-decoration: none;
+    position: absolute;
+    border-radius: 1vw;
+    left: 80%;
+    top: 45vw;
+   } 
+   #links a:hover{
+    box-shadow: 0px 0px  15px #ffffff;
+   }
 .grid-container {
     height: 70vh;
     display: grid;
@@ -29,10 +76,7 @@ body{
     font-size: 30px;
   }
 
-@font-face {
-    font-family: "Roboto-Regular";
-    src: url(../storage/font/Roboto/Roboto-Regular.ttf);
-}
+
 .footer {
     color: white;
     grid-area: section__footer;
@@ -65,16 +109,16 @@ body{
     border-bottom: 4px solid var(--color--five) ;
 }
 
-#contenedor{
+#contenedor2{
    
     position: absolute;
-    top: 90%;
-    left: 30%;
+    top: 89%;
+    left: 35%;
 	width: 35vw;
 	height: 0px;
 	border-top: solid 0px transparent;
 	border-right: solid 50px transparent;
-	border-bottom: solid 100px #1A1C48;
+	border-bottom: solid 100px #1a1c4800;
 	border-left: solid 50px transparent;
     border-top-left-radius: 5vw;
     border-top-right-radius: 5vw;
@@ -86,10 +130,7 @@ img{
     transition: transform 0.3s ease;
     padding: 1vw;
 }
-img:hover{
-    transform: scale(2)
-    
-}
+
 
 
 .text{
@@ -115,10 +156,7 @@ img:hover{
     transition: transform 0.5s ease;
 
 }
-.sombra{
-    position: absolute;
-    bottom: 0%;
-}
+
 
 #cohete:hover{
     transform: scale(1.2)
@@ -131,34 +169,4 @@ img:hover{
     width: 17vw;
     position: absolute;
     top: -55vh;
-}
-/* Media Queries */
-@media (max-width: 768px) {
-    .btn, .btn2, .btn3 {
-        font-size: 4vw; /* Aumentar tamaño de fuente en pantallas más pequeñas */
-    }
-
-    #contenedor {
-        width: 80vw; /* Ampliar el contenedor */
-        border-bottom: solid 15vw #1A1C48; /* Ajustar el borde */
-    }
-
-    .text {
-        font-size: 4vw; /* Aumentar tamaño de texto */
-    }
-}
-
-@media (max-width: 480px) {
-    .btn, .btn2, .btn3 {
-        font-size: 5vw; /* Aumentar más para móviles */
-    }
-
-    #contenedor {
-        width: 90vw; /* Más ancho para móviles */
-        border-bottom: solid 20vw #1A1C48; /* Ajustar aún más */
-    }
-
-    .text {
-        font-size: 5vw; /* Ajustar texto para móviles */
-    }
 }
