@@ -21,8 +21,8 @@ fetch("https://api.spacexdata.com/v4/rockets")
         document.getElementById("imagen").innerHTML=`
         <img id="falcon1" src="${data[0].flickr_images[0]}" alt="nhgy">
          <img id="falcons" src="${data[0].flickr_images[1]}" alt="nhgy">
-          <img id="falcont" src="${data[0].flickr_images[2]}" alt="nhgy">
-            <img id="falconc" src="${data[0].flickr_images[3]}" alt="nhgy">
+          <img id="falcont" src="/img/imagenfalcon1.jpg" alt="nhgy">
+            <img id="falconc" src="/img/1imgfalcon1.jpg" alt="nhgy">
           
     `
     document.getElementById("infcohete").innerHTML=`
@@ -152,8 +152,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <h4><span>Layout</span><br>${data[2].engines.layout} </h4>
             <h4><span>Number</span><br>${data[2].engines.number} </h4>
         `
-           
-            
+       
         })
     }
 

@@ -38,6 +38,7 @@ body{
     border-radius: 1vw;
     box-shadow: #ffffff 0px 0px  10px ;
     color: white;
+    font-size: ;
 }
 #titulo{
 
@@ -114,7 +115,6 @@ body{
 }
 
 #contenedor2{
-   
     position: absolute;
     top: 89%;
     left: 35%;
@@ -248,4 +248,16 @@ li{
     display: grid;
     grid-template-columns: 1fr 8fr 1fr;
     grid-template-areas: ". footer__menu .";
+}
+span{
+    font-size: 1em;
+       color: #FFD630;
+   }
+   footer span{
+    color: rgb(255, 255, 255);
+    font-size: small;
+    text-decoration: none;
+}
+#titulo{
+    color: #FFD630;
 }

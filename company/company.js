@@ -9,7 +9,7 @@ fetch("https://api.spacexdata.com/v4/company")
         
             <div class="contMapFounder">
                 <div id="founder">
-                    <h2 class="fundador">Founder</h2>
+                    <h2  class="fundador">Founder</h2>
                     <img src="/img/image.png" alt="" class="elonkimg">
                     <div id="elonkLetra">${companyDatos.founder}</div>
                 </div>
