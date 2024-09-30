@@ -40,9 +40,9 @@ body{
         position: absolute;} 
         #falconc{
             opacity: 0.8;
-            top: 2.5vw;
+            top: 14vw;
             width: 15vw;
-            left: 35%;
+            left: 55%;
             border-radius: 2vw;
             position: absolute;}
 
@@ -250,4 +250,11 @@ span{color: #ffffff ;}
     height: 25vh;
     border-radius: 3vw;
 
+}
+li{
+
+    border-radius: 10px;
+}
+#pag li:hover{
+    transform: scale(1.6);
 }

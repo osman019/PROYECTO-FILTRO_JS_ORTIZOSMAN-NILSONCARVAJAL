@@ -22,6 +22,7 @@ fetch("https://api.spacexdata.com/v4/rockets")
         <img id="falcon1" src="${data[0].flickr_images[0]}" alt="nhgy">
          <img id="falcons" src="${data[0].flickr_images[1]}" alt="nhgy">
           <img id="falcont" src="${data[0].flickr_images[2]}" alt="nhgy">
+            <img id="falconc" src="${data[0].flickr_images[3]}" alt="nhgy">
           
     `
     document.getElementById("infcohete").innerHTML=`
@@ -39,6 +40,9 @@ fetch("https://api.spacexdata.com/v4/rockets")
 
 
 }
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
     const pages = document.querySelectorAll("#p2");
     const infocohete = document.getElementById("infcohete");
@@ -68,6 +72,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <img id="falcon1" src="${data[1].flickr_images[0]}" alt="">
                       <img id="falcons" src="${data[1].flickr_images[1]}" alt="">
                  <img id="falcont" src="${data[1].flickr_images[2]}" alt="">
+                  <img id="falconc" src="${data[1].flickr_images[3]}" alt="">
             `
             document.getElementById("infcohete").innerHTML=`
             <h4><span>Type</span> <br>${data[1].type}</h4><br>
@@ -137,6 +142,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <img id="falcon1" src="${data[2].flickr_images[0]}" alt="">
                  <img id="falcons" src="${data[2].flickr_images[1]}" alt="">
                   <img id="falcont" src="${data[2].flickr_images[2]}" alt="">
+                    <img id="falconc" src="${data[2].flickr_images[3]}" alt="">
             `
             document.getElementById("infcohete").innerHTML=`
             <h4><span>Type</span> <br>${data[2].type}</h4><br>
@@ -205,7 +211,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("imagen").innerHTML=`
                <img id="falcon1" src="${data[3].flickr_images[0]}" alt="">
                 <img id="falcons" src="${data[3].flickr_images[1]}" alt="">
-                <img id="falcont" src="${data[3].flickr_images[3]}" alt="">
+                <img id="falcont" src="${data[3].flickr_images[2]}" alt="">
+                   <img id="falconc" src="${data[3].flickr_images[3]}" alt="">
             `
             document.getElementById("infcohete").innerHTML=`
             <h4><span>Type</span> <br>${data[3].type}</h4><br>

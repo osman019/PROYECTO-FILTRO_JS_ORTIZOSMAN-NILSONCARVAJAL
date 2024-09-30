@@ -170,3 +170,32 @@ img{
     position: absolute;
     top: -55vh;
 }
+#pasar-Pagina{
+    width: 20vw;
+    height: 3vw;
+    position: absolute;
+    top: 42vw;
+    left: 80vw;
+    display: flex;
+    padding: 4px 20px ;
+}
+#pag{
+    position: absolute;
+    left: 80%;
+    text-decoration: none;
+    margin: 0 1vw;
+    top: 90%;
+}
+#pag li{
+    display: inline-block;
+    background-color: #121569;
+    width: 2vw;
+    height: 2vw;
+    font-size: 1.2vw;
+    text-align: center;
+    line-height: 2vw;
+    margin: 0 0.5vw;
+    cursor: pointer;
+    border-radius: vw;
+    color: white;
+}
