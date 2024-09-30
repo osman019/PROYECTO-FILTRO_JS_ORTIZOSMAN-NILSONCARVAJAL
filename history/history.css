@@ -40,6 +40,10 @@ body{
     color: white;
 }
 #titulo{
+
+    font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
     position: absolute;
     left: 40%;
     font-size: 2em;

@@ -78,10 +78,13 @@ body{
    
 }
 .name{   
-    
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+   
+    font-style: normal;
     text-shadow:  2px 2px 40px rgb(0, 0, 0);
     position: absolute;
-    left: 50%;
+    left: 4%;
     font-size: 7em;
     color: #ffffff;
 }
@@ -230,7 +233,6 @@ margin-left: 90%;
 text-decoration: none;
 display: block;
 border-radius: 1vw;
-
 width: 10vw;
 text-align: center;
 box-shadow: rgb(30, 30, 58) 0px 0px 15px;
