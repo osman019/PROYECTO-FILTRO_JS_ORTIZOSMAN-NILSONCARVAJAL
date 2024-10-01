@@ -12,6 +12,7 @@ fetch("https://api.spacexdata.com/v4/company")
                     <h2  class="fundador">Founder</h2>
                     <img src="/img/image.png" alt="" class="elonkimg">
                     <div id="elonkLetra">${companyDatos.founder}</div>
+                    
                 </div>
     <div id="lugar">
                     <img src="" alt="" class="lugarSpaceX">
@@ -22,6 +23,7 @@ fetch("https://api.spacexdata.com/v4/company")
                         <h1><span> Address - </span>${companyDatos.headquarters.address}</h1>
                         <h1><span> City - </span>${companyDatos.headquarters.city}</h1>
                         <h1><span>  State - </span>${companyDatos.headquarters.state}</h1>
+                         <h1><span>  Founded- </span>${companyDatos.founded}</h1>
                     </div>
                     <div class="info">
                     
@@ -37,6 +39,9 @@ fetch("https://api.spacexdata.com/v4/company")
     <a id="link3" href="${companyDatos.links.twitter}">twitter</a>
     <a id="link4" href="${companyDatos.links.elon_twitter}">elon_twitter</a>
 </div>
-          
+      
+<div id="datos"><h1><span>Employees - </span>${companyDatos.employees}</h1>
+    <h1><span>vehicles - </span>${companyDatos.vehicles}</h1>
+    <h1><span>Coo - </span>${companyDatos.coo}</h1></div>    
   `  
 })

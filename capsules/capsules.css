@@ -1,5 +1,5 @@
 body{
-    background-image: url("/img/navef.jpeg");
+    background-image: url("/img/fondotierra.jpg");
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -84,7 +84,18 @@ body{
 footer{
     text-decoration: none;
 }
-
+footer span{
+    color: rgb(255, 255, 255);
+   
+    text-decoration: none;
+}
+.Tcapsules{  font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+   
+    font-style: normal;
+    position: absolute;
+left: 45vw;
+font-size: 3em;}
 .text{
     position: absolute;
     left: 41vw ;
@@ -122,6 +133,52 @@ footer{
     border-radius: 1vw;
     box-shadow: #ffffff 0px 0px  10px ;
     color: white;
+    text-align: center;
+    font-size: ;
+}
+span{
+   
+       color: #FFD630;
+   }
+
+#capsule1{
+    position: absolute;
+    left: 60vw;
+    width: 30vw;
+    top: 12vw;
+    border-radius: 1vw;
+}
+#pasar-Pagina{
+    width: 30vw;
+    height: 3vw;
+    position: absolute;
+    
+    left: 80vw;
+    display: flex;
+    padding: 4px 20px ;
+}
+#pag{
+ position: absolute;
+    left: -26vw;
+    text-decoration: none;
+    margin: 0 1vw;
+    top: 90%;
+}
+li{
+
+    border-radius: 10px;
 }
 
-
+#pag li{
+    display: inline-block;
+    background-color: #121569;
+    width: 2vw;
+    height: 2vw;
+    font-size: 1.2vw;
+    text-align: center;
+    line-height: 2vw;
+    margin: 0 0.5vw;
+    cursor: pointer;
+    border-radius: vw;
+    color: white;
+}

@@ -269,3 +269,13 @@ text-decoration: none;
 
 h2{
     color: #FFD630;}
+    h1{color: white;}
+    #datos{
+       border-radius: 1vw;
+        width: 20vw;
+        height: 21vh;
+  
+        position: absolute;
+        left: 45vw;
+        top: 33vw;
+    }
