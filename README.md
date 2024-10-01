@@ -10,11 +10,11 @@ Para subir sus ingresos, quieren crear un portafolio general, el cual permita vi
 
 Dicho esto, el equipo de diseño UI/UX, al igual que el equipo de sistemas, diseñó y proporcionó los diferentes *wireframes* y *endpoints* necesarios para que el diseñador *FullStack* lo vuelva realidad en un aplicativo web.
 
-*El archivo inicio.index contiene la animación de inicio para la página.
-*El rocket.index es la interfaz principal de nuestra página relata la información de varios cohetes.
-*El company.index se muestran datos de la empresa y varios de sus datos importantes.
-*El capsule.index lleva un registro de los cohetes de SpaceX sobre cada uno de sus aterrizajes,despegues y reutilizaciones.
-*El history.index es un historial de las historias de fechas y descripciones de los vuelos de varios cohetes.
+* El archivo inicio.index contiene la animación de inicio para la página.
+* El rocket.index es la interfaz principal de nuestra página relata la información de varios cohetes.
+* El company.index se muestran datos de la empresa y varios de sus datos importantes.
+* El capsule.index lleva un registro de los cohetes de SpaceX sobre cada uno de sus aterrizajes,despegues y reutilizaciones.
+* El history.index es un historial de las historias de fechas y descripciones de los vuelos de varios cohetes.
 
 ## Tecnologías utlizadas 
 
@@ -29,10 +29,10 @@ Dicho esto, el equipo de diseño UI/UX, al igual que el equipo de sistemas, dise
 
 ## Características del diseño
 
-*Efectos de diseño personalizados, como imagenes con animaciones.
-*Barra de navegacíon en la parte inferior.
-*Uso de imágenes de fondos y logotipos autorizados.
-*posicionamiento absoluto en la mayoria de los elementos.
+* Efectos de diseño personalizados, como imagenes con animaciones.
+* Barra de navegacíon en la parte inferior.
+* Uso de imágenes de fondos y logotipos autorizados.
+* posicionamiento absoluto en la mayoria de los elementos.
 
 ##Intrucciones de uso
 1. Clona este repositorio o descarga los archivos en tu máqina local.
