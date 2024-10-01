@@ -27,8 +27,8 @@ function mostrarDatos(){
         page.addEventListener("click", function() {
         const pageNumber = this.getAttribute("value");
         fetchData(pageNumber);
-      document.querySelector(".active").classList.remove("active");
-      this.classList.add("active");
+        document.querySelector(".active").classList.remove("active");
+        this.classList.add("active");
       });
       });
 
@@ -47,7 +47,6 @@ function mostrarDatos(){
         const url = "https://api.spacexdata.com/v4/history"
 
         fetch(url)
-     
         .then(res=>res.json())
         .then(data=> {
             console.log(data);

@@ -41,7 +41,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
 }
 .footer ul li {
     list-style: none;
@@ -98,7 +97,7 @@ body{
 }
 .fundador{
     top: 25%;
-    color: #FFD630;
+    color: #fd923a;
     left: 7%;
     position: absolute;
 font-size: 3em;}
@@ -174,7 +173,7 @@ left: 85%;}
 }
 .headquarters{
     top: 0%;
-    color: #6f6ea1;
+    color: #fd923a;
 }
 #pruebas{
     text-align: center;
@@ -209,7 +208,7 @@ color:#ffffff;
     right: 1vw;
 
 }
-.value{color: #FFD630;
+.value{color: #fd923a;
 
 }
 .valuation{
@@ -223,8 +222,8 @@ color:#ffffff;
 }
 .information{
     position: absolute;
-left: 6vw;
-    color: #FFD630;
+    left: 6vw;
+    color: #EA7B15;
     top: -2vw;
 }
 #links a {color: white;
@@ -235,7 +234,7 @@ display: block;
 border-radius: 1vw;
 width: 10vw;
 text-align: center;
-box-shadow: rgb(74, 74, 145) 0px 0px 15px;
+box-shadow: #fd923a 0px 0px 15px;
 
 }
 #links a:hover{background-color: #261f6996;}
@@ -258,7 +257,7 @@ position: absolute;}
 
 span{
 font-size: 1em;
-color: #FFD630;
+color: #fd923a;
 }
 
 footer span{

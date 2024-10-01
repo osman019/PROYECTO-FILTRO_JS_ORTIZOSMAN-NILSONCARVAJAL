@@ -68,16 +68,11 @@ body{
 }
 
 #contenedor2{
-   
     position: absolute;
-    top: 89%;
-    left: 30%;
+    top: 93%;
+    left: 35%;
 	width: 35vw;
 	height: 0px;
-	border-top: solid 0px transparent;
-	border-right: solid 50px transparent;
-	border-bottom: solid 100px #1a1c4800;
-	border-left: solid 50px transparent;
     border-top-left-radius: 5vw;
     border-top-right-radius: 5vw;
 }
@@ -134,25 +129,33 @@ font-size: 3em;}
     box-shadow: #ffffff 0px 0px  10px ;
     color: white;
     text-align: center;
-    font-size: ;
+   
+}
+#informacion:hover{
+    box-shadow:#FFD630 0px 0px  20px ;
 }
 span{
    
-       color: #FFD630;
-   }
+    color: #FFD630;
+}
 
 #capsule1{
     position: absolute;
-    left: 60vw;
+    left: 45vw;
     width: 30vw;
-    top: 12vw;
+    top: 1vw;
     border-radius: 1vw;
+    color: #FFD630;
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    font-size: 3em;
 }
 #pasar-Pagina{
     width: 30vw;
     height: 3vw;
     position: absolute;
-    
     left: 80vw;
     display: flex;
     padding: 4px 20px ;
@@ -162,7 +165,7 @@ span{
     left: -26vw;
     text-decoration: none;
     margin: 0 1vw;
-    top: 90%;
+    top: -4vw;
 }
 li{
 
@@ -181,4 +184,16 @@ li{
     cursor: pointer;
     border-radius: vw;
     color: white;
+}
+#icono{left:65vw ;
+    top: 10vw;
+    position: absolute;}
+.Capsule1{
+    width: 20vw;
+    top: 17vw;
+    position: absolute;
+    left: 70vw;
+    border-radius: 1vw;
+    box-shadow: 0px 0px 10px #FFD630;
+    
 }
