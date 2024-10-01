@@ -2,7 +2,7 @@
 
 Este repositorio contiene el código fuente para una página web informativa sobre el programa de SpaceX,En 2002 fue fundada por Elon Musk (también co-fundador de Tesla-Motors) la empresa de transporte espacial SPACEX, este ambicioso proyecto tiene varios objetivos.
 
-## Descripción
+## Descripción 😎
 
 Una empresa aeroespacial recibe licitaciones públicas con el fin de realizar investigaciones enfocadas al turismo intergaláctico de los ciudadanos del planeta tierra.
 
@@ -16,7 +16,7 @@ Dicho esto, el equipo de diseño UI/UX, al igual que el equipo de sistemas, dise
 * El capsule.index lleva un registro de los cohetes de SpaceX sobre cada uno de sus aterrizajes,despegues y reutilizaciones.
 * El history.index es un historial de las historias de fechas y descripciones de los vuelos de varios cohetes.
 
-## Tecnologías utlizadas 
+## Tecnologías utlizadas 💻📓
 
 * HTML 5
 * CSS 3
@@ -25,16 +25,14 @@ Dicho esto, el equipo de diseño UI/UX, al igual que el equipo de sistemas, dise
 
   ## Estructura del proyecto
 
-  
-
-## Características del diseño
+## Características del diseño 💡🧱
 
 * Efectos de diseño personalizados, como imagenes con animaciones.
 * Barra de navegacíon en la parte inferior.
 * Uso de imágenes de fondos y logotipos autorizados.
 * posicionamiento absoluto en la mayoria de los elementos.
 
-##Intrucciones de uso
+##Intrucciones de uso 📄
 1. Clona este repositorio o descarga los archivos en tu máqina local.
 2. Abra el archivo inicio.html en un navegador 
 
