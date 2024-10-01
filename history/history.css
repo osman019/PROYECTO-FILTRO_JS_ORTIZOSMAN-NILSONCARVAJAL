@@ -38,8 +38,10 @@ body{
     border-radius: 1vw;
     box-shadow: #ffffff 0px 0px  10px ;
     color: white;
-    font-size: ;
+    
 }
+#informacion:hover{
+    box-shadow:#FFD630 0px 0px  20px ;}
 #titulo{
 
     font-family: "Orbitron", sans-serif;
@@ -175,36 +177,23 @@ img{
     top: -55vh;
 }
 #pasar-Pagina{
-    width: 20vw;
+    width: 30vw;
     height: 3vw;
     position: absolute;
-    top: 42vw;
+    
     left: 80vw;
     display: flex;
     padding: 4px 20px ;
 }
 #pag{
-    position: absolute;
-    left: 80%;
+ position: absolute;
+    left: -30vw;
     text-decoration: none;
     margin: 0 1vw;
     top: 90%;
 }
-#pag li{
-    display: inline-block;
-    background-color: #121569;
-    width: 2vw;
-    height: 2vw;
-    font-size: 1.2vw;
-    text-align: center;
-    line-height: 2vw;
-    margin: 0 0.5vw;
-    cursor: pointer;
-    border-radius: vw;
-    color: white;
-}
-#PP{position: absolute;
-top: -5vw;}
+
+
 #pag li{
     display: inline-block;
     background-color: #121569;
@@ -260,4 +249,11 @@ span{
 }
 #titulo{
     color: #FFD630;
+}
+
+#icono{
+    position: absolute;
+    left: 70vw;
+    top: 25vh;
+    width: 20vw;
 }

@@ -13,7 +13,7 @@ body{
     min-height: 100vh; /* Hace que el cuerpo ocupe al menos el 100% de la ventana */
     overflow: hidden; /* Evita el desplazamiento si hay más contenido */
 } 
-
+#textValuation{color: green;}
 #informacion{
         background-color: #1f225c;
         top: 3vw;
@@ -86,7 +86,7 @@ body{
     position: absolute;
     left: 37%;
     font-size: 7em;
-    color: #FFD630;
+    color: #ffffff;
 }
 #elonkLetra{
 
@@ -98,7 +98,7 @@ body{
 }
 .fundador{
     top: 25%;
-    color: #6c7099;
+    color: #FFD630;
     left: 7%;
     position: absolute;
 font-size: 3em;}
@@ -209,7 +209,7 @@ color:#ffffff;
     right: 1vw;
 
 }
-.value{color: #6c7099;
+.value{color: #FFD630;
 
 }
 .valuation{
@@ -224,7 +224,7 @@ color:#ffffff;
 .information{
     position: absolute;
 left: 6vw;
-    color: #6c7099;
+    color: #FFD630;
     top: -2vw;
 }
 #links a {color: white;
@@ -245,7 +245,7 @@ box-shadow: rgb(74, 74, 145) 0px 0px 15px;
 font-size: 2em;
 }
 #link2{top: 45vw;
-left: ;
+
 font-size: 2em;
 position: absolute;}
 #link3{top:36vw ;

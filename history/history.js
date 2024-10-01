@@ -10,6 +10,7 @@ function mostrarDatos(){
         document.getElementById("informacion").innerHTML=`
         <h1><span>Date</span><br>${data[0].event_date_utc}</h1></br>
         <h1><span>Details</span><br> ${data[0].details}</h1><br>
+         <h1><span>event date unix</span><br> ${data[0].event_date_unix}</h1><br>
         `
         document.getElementById("links").innerHTML=`
         <div id="links">
@@ -17,6 +18,8 @@ function mostrarDatos(){
          </div>
         `
         document.getElementById("imagen").innerHTML=`
+
+        <img id="icono" src="/img/informacion.png" alt="">
         `
       
        // Evento para cada página
@@ -54,10 +57,10 @@ function mostrarDatos(){
             document.getElementById("informacion").innerHTML=`
            <h1><span>Date</span><br>${data[1].event_date_utc}</h1></br>
         <h1><span>Details</span><br> ${data[1].details}</h1><br>
-                
+                   <h1><span>event date unix</span><br> ${data[1].event_date_unix}</h1><br>
                     `
                 document.getElementById("imagen").innerHTML=`
-                
+                 <img id="icono" src="/img/informacion.png" alt="">
             `
             document.getElementById("infcohete").innerHTML=`
            
@@ -112,10 +115,10 @@ document.addEventListener("DOMContentLoaded", function() {
           document.getElementById("informacion").innerHTML=`
          <h1><span>Date</span><br>${data[2].event_date_utc}</h1></br>
       <h1><span>Details</span><br> ${data[2].details}</h1><br>
-              
+                 <h1><span>event date unix</span><br> ${data[2].event_date_unix}</h1><br>
                   `
               document.getElementById("imagen").innerHTML=`
-              
+               <img id="icono" src="/img/informacion.png" alt="">
           `
           document.getElementById("infcohete").innerHTML=`
          
@@ -169,10 +172,10 @@ document.addEventListener("DOMContentLoaded", function() {
           document.getElementById("informacion").innerHTML=`
          <h1><span>Date</span><br>${data[3].event_date_utc}</h1></br>
       <h1><span>Details</span><br> ${data[3].details}</h1><br>
-              
+                 <h1><span>event date unix</span><br> ${data[3].event_date_unix}</h1><br>
                   `
               document.getElementById("imagen").innerHTML=`
-              
+               <img id="icono" src="/img/informacion.png" alt="">
           `
           document.getElementById("infcohete").innerHTML=`
          
