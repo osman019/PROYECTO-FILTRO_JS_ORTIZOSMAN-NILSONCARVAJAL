@@ -12,9 +12,9 @@ Dicho esto, el equipo de diseño UI/UX, al igual que el equipo de sistemas, dise
 
 *El archivo inicio.index contiene la animación de inicio para la página.
 *El rocket.index es la interfaz principal de nuestra página relata la información de varios cohetes.
-*El company.index 
-*El capsule.index
-*El history.index
+*El company.index se muestran datos de la empresa y varios de sus datos importantes.
+*El capsule.index lleva un registro de los cohetes de SpaceX sobre cada uno de sus aterrizajes,despegues y reutilizaciones.
+*El history.index es un historial de las historias de fechas y descripciones de los vuelos de varios cohetes.
 
 ## Tecnologías utlizadas 
 
@@ -22,6 +22,10 @@ Dicho esto, el equipo de diseño UI/UX, al igual que el equipo de sistemas, dise
 * CSS 3
 * JAVASCRIPT
 * MANEJI DE API
+
+  ## Estructura del proyecto
+
+  
 
 ## Características del diseño
 
