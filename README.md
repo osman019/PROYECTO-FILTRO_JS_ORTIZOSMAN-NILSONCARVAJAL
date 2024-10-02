@@ -23,8 +23,6 @@ Dicho esto, el equipo de diseño UI/UX, al igual que el equipo de sistemas, dise
 * JAVASCRIPT
 * MANEJI DE API
 
-  ## Estructura del proyecto
-
 ## Características del diseño 💡🧱
 
 * Efectos de diseño personalizados, como imagenes con animaciones.
@@ -32,7 +30,7 @@ Dicho esto, el equipo de diseño UI/UX, al igual que el equipo de sistemas, dise
 * Uso de imágenes de fondos y logotipos autorizados.
 * posicionamiento absoluto en la mayoria de los elementos.
 
-##Intrucciones de uso 📄
+## Intrucciones de uso 📄
 1. Clona este repositorio o descarga los archivos en tu máqina local.
 2. Abra el archivo inicio.html en un navegador 
 
