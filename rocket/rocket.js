@@ -50,9 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Función para obtener los datos de la API según el número de página
     function fetchData(page) {
-        const url = "https://api.spacexdata.com/v4/rockets"
-
-        fetch(url)
+       
         fetch("https://api.spacexdata.com/v4/rockets")
         .then(res=>res.json())
         .then(data=> {
@@ -120,9 +118,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Función para obtener los datos de la API según el número de página
     function fetchData(page) {
-        const url = "https://api.spacexdata.com/v4/rockets"
-
-        fetch(url)
+      
         fetch("https://api.spacexdata.com/v4/rockets")
         .then(res=>res.json())
         .then(data=> {
@@ -189,9 +185,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Función para obtener los datos de la API según el número de página
     function fetchData(page) {
-        const url = "https://api.spacexdata.com/v4/rockets"
-
-        fetch(url)
+       
         fetch("https://api.spacexdata.com/v4/rockets")
         .then(res=>res.json())
         .then(data=> {
